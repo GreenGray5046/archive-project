@@ -1,3 +1,3 @@
-website for archiving notes, research, and student generate literature
+website for archiving notes, research, and student generated literature
 
 current work in progress

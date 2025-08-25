@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NotesHub</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<h1><a href="#">NotesHub</a></h1>
+<nav>
+<button id="btn-login" class="link">Log in</button>
+<button id="btn-register" class="link">Create account</button>
+<span id="whoami" class="muted"></span>
+<button id="btn-logout" class="link hidden">Log out</button>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<section class="search">
+<input id="search" placeholder="Search public uploads…" />
+<button id="search-btn">Search</button>
+</section>
+
+
+<section id="upload-card" class="card hidden">
+<h2>Upload your notes</h2>
+<form id="upload-form">
+<label>Title <input name="title" required /></label>
+<label>Description <textarea name="description" rows="3"></textarea></label>
+<label>File <input type="file" name="file" required /></label>
+<label class="inline">
+<input type="checkbox" name="is_public" checked /> Public
+</label>
+<button type="submit">Upl

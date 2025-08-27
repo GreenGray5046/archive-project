@@ -1,3 +1,1 @@
-website for archiving notes, research, and student generated literature
-
-current work in progress
+it doesn't work, and i don't plan on completing it (for now)
